@@ -1,0 +1,73 @@
+body {
+    background: #e5e0d8;
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+
+.content-left {
+    background: #ded5c9;
+    border-style: solid;
+    border-color: #809671;
+    width: 70%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 14px;
+}
+
+.content-right {
+    border-style: solid;
+    border-color: #809671;
+    background: #bfc19a;
+    width: 500хч;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 14px;
+}
+
+.firstPage {
+    font-size: 40px;
+    color: #809671;
+    text-align: center;
+}
+
+.aboutMe {
+    text-align: left;
+    font-size: 30px;
+    color: #725c3a;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.story {
+    font-size: 20px;
+    color: #715c46;
+    text-align: justify;
+}
+
+.textH{
+    text-align: left;
+    font-size: 30px;
+    color: #6e543e;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+ul {
+    color: #3a513b;
+}
+img{
+    border: solid;
+    border-color: #cab89d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 422px;
+    border-radius: 10px;
+}
