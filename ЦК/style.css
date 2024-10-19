@@ -1,0 +1,181 @@
+body {
+    background: #e5e0d8;
+    
+}
+.square-1{
+    height:200px;
+    width:200px;
+    border:2px solid #f1b3e2;
+    position:absolute;
+    top:100px;
+    left:200px;
+}
+.square-2{
+    height:200px;
+    width:200px;
+    border:2px solid #8ea6c9;
+    position:absolute;
+    top:250px;
+    left:350px;
+}
+.square-3{
+    height:200px;
+    width:200px;
+    border:2px solid #b7be2e;
+    position:absolute;
+    top:400px;
+    left:500px;
+}
+.imageCat{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-color: #b7be2e;
+}
+.container-4{
+    border:5px solid #cab89d;
+    position:absolute;
+    margin: 2%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 600px;
+}
+.container-3{
+    margin: 2%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #a5b5cd;
+    border-style: solid;
+    border-color: #c3c863;
+    border-width: 4px;
+}
+.block-3{
+    margin: 1%;
+    height: 200px;
+    width: 200px;
+    background: #ceafc6;
+}
+.container-2{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    background: #c3c863;
+}
+.block-2{
+    background: #ceafc6;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page2H{
+    color: #8ea6c9;
+}
+.imageBlock{
+    padding-bottom: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 0%;
+}
+.container{
+    background: #cab89d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block{
+    width: 200px;
+    height: 200px;
+}
+.header{
+    display: block;
+    width: 100%;
+    padding: 1%;
+    background: #bfc19a;
+    text-align: right;
+}
+
+.content {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages{
+    padding: 20px;
+    color: #809671;
+    size: 40px;
+}
+.content-left {
+    background: #ded5c9;
+    border-style: solid;
+    border-color: #809671;
+    width: 70%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 14px;
+}
+
+.content-right {
+    border-style: solid;
+    border-color: #809671;
+    background: #bfc19a;
+    width: 500хч;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 14px;
+}
+
+.firstPage {
+    font-size: 40px;
+    color: #809671;
+    text-align: center;
+}
+
+.aboutMe {
+    text-align: left;
+    font-size: 30px;
+    color: #725c3a;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.story {
+    font-size: 20px;
+    color: #715c46;
+    text-align: justify;
+}
+
+.textH{
+    text-align: left;
+    font-size: 30px;
+    color: #6e543e;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+ul {
+    color: #3a513b;
+}
+img{
+    border: solid;
+    border-color: #cab89d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 422px;
+    border-radius: 10px;
+}
