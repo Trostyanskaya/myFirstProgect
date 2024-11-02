@@ -19,3 +19,12 @@ caption{
     font-size: 40px;
     color: #5a6a3b;
 }
+/* Нечетные строки */
+tbody tr:nth-child(odd){
+	background: #c4e385c8;
+}
+ 
+/* Четные строки */
+tbody tr:nth-child(even){
+	background: #abc27cc8;
+}
