@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.carousel-item{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#sidebar {
+    position: fixed;
+    top: auto;
+}
+.carousel-inner{
+    height: 450px;
+}
+#cards{
+    margin: 300px;
+}
+.card-img-top{
+    width: 600px;
+    height: 200px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
