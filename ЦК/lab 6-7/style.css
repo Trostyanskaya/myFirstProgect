@@ -5,11 +5,18 @@ body {
 .navbar {
     margin-bottom: 20px;
 }
+p{
+    font-size: 14px;
+}
 
 .carousel-item{
     object-fit: cover;
     height: 400px;
     width: 100%;
+}
+.container-menu{
+    position: relative; /* position не должен быть static */
+    z-index: 999;
 }
 
 #sidebar {
@@ -19,9 +26,7 @@ body {
 .carousel-inner{
     height: 450px;
 }
-#cards{
-    margin: 300px;
-}
+
 .card-img-top{
     width: 600px;
     height: 200px;
