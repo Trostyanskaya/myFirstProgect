@@ -1,0 +1,9 @@
+{
+    "lastName": "Иванов",
+    "firstName": "Иван",
+    "marks": [
+        { "subject": "Математика", "mark": 5 },
+        { "subject": "Физика", "mark": 4 },
+        { "subject": "Химия", "mark": 3 }
+    ]
+}
